@@ -915,6 +915,18 @@ public class Indexer {
     }
 
     /**
+     * Returns a translation academy item
+     * @param sourceTranslation
+     * @param volume
+     *@param manual
+     * @param translationAcademySlug  @return
+     */
+    public TranslationArticle getTranslationAcademy(SourceTranslation sourceTranslation, String volume, String manual, String translationAcademySlug) {
+        // TODO: 12/2/2015 finish implementing this
+        return null;
+    }
+
+    /**
      * Returns an array of checkingQuestions
      * @param sourceTranslation
      * @param chapterSlug
